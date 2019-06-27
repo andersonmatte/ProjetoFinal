@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/nome"
+        android:inputType="text" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/cpf"
+        android:inputType="number" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/idade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/idade"
+        android:inputType="number" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/telefone"
+        android:inputType="number" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_cadastrar"
+        style="@style/RaisedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/button_cadastrar" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_listar"
+        style="@style/RaisedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/button_listar" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_voltar"
+        style="@style/RaisedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/button_voltar" />
+
+</android.support.v7.widget.LinearLayoutCompat>

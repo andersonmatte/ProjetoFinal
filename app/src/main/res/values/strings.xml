@@ -1,0 +1,18 @@
+<resources>
+    <!--Nome do APP-->
+    <string name="app_name">Projeto Final</string>
+    <!--Campos Tela de Cadastro-->
+    <string name="nome">Nome Completo:</string>
+    <string name="cpf">CPF:</string>
+    <string name="idade">Idade:</string>
+    <string name="telefone">Telefone:</string>
+    <string name="email">E-mail:</string>
+    <string name="sistema">Cadastro de Pessoas</string>
+    <string name="sistema_information">Desenvolvido por Anderson Matte Versão 1.0</string>
+    <string name="button_inserir">Cadastrar Pessoa</string>
+    <string name="button_cadastrar">Inserir Dados</string>
+    <string name="button_listar">Listar Registros</string>
+    <string name="button_voltar">Voltar</string>
+    <string name="erro_campos_obrigatórios">Todos os campos são obrigatórios!</string>
+
+</resources>
